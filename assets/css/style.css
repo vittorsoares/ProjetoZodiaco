@@ -1,0 +1,74 @@
+* {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../imgs/numerology-concept-composition.jpg);
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container.formulario {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    background-color: #FFFFFF;
+    padding: 90px 0;
+}
+
+.container.resultado {
+    height: 100%;
+    background-image: linear-gradient(#8C85A7, #28257E);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 90px 0;
+}
+
+#signo-form {
+    border-top: 1px solid #6495ED;
+    padding: 50px 90px 90px 90px;
+}
+
+.btn.btn-primary {
+    background: #6495ED;
+    width: 100%;
+}
+
+.btn.btn-secondary{
+    background: #6495ED;
+    width: fit-content;
+    align-self: center;
+    border: none;
+    padding: 8px 24px;
+}
+
+h2 {
+    font-size: 58px;
+    color: #C6C2BD;
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 0.4em;
+    color: #C6C2BD;
+}
+
+.autoral{
+    text-decoration: none;
+    letter-spacing: normal;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 30px;
+}
